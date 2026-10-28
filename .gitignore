@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel
+
+# logs / OS
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# secrets: never commit API keys (.env.example is a blank template and IS committed)
+.env
+.env.*
+!.env.example
+
+# docs: only README.md is published (CLAUDE.md, ARCHITECTURE.md, assignment.md, AGENTS.md stay local)
+*.md
+!README.md
+
+# raw screenshot captures; the README uses the renamed copies (opening-page.png, spotify-*.png)
+screenshots/Screenshot *.png
